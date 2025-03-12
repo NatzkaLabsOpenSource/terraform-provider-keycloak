@@ -54,7 +54,7 @@ resource "keycloak_realm_client_policy_profile_policy" "policy" {
     name = "client-attributes"
     configuration = {
       "is-negative-logic" = false
-      "attributes"        = jsonencode([{ "key" : "something", "value" : "other3" }])
+      "attributes"        = jsonencode([{ "key" : "test-key", "value" : "test-value" }])
     }
   }
 }
