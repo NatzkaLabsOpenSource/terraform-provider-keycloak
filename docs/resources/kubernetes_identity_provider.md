@@ -118,6 +118,7 @@ spec:
 1. Issuer URL of the Keycloak realm.
 2. Maximum time allowed by Kubernetes is 3600 seconds
 
+
 ##  In the Pod, use curl to authenticate to Keycloak:
 
 curl -k https://example.com:8443/realms/<realm>/protocol/openid-connect/token \
